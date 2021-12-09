@@ -34,13 +34,13 @@ if(confrimSc){
 }
 
 if(!confrimUpper && !confrimLower && !confrimNumbers && !confrimSc){
-  alert("STUPID IDIOT")
+  alert("Please select one.")
   generatePass()
 }
 var characterLength = prompt("Enter a password length of 8-128")
 
 if(characterLength < 8 || characterLength > 128){
-  alert("Eat shit and piss off")
+  alert("Invalid entry, try again.")
   generatePass()
 }
 
